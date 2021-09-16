@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
                 sum += arg[num]
                 num++
             }
-            return (sum/10).toFloat()
+            return (sum.toFloat()/10)
         }
 
         //creamos las variables para enlasar los componentes del activity main
